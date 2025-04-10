@@ -3,13 +3,6 @@
 \*-----------------------------------*/
 
 
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
@@ -867,6 +860,50 @@ main {
   border-radius: inherit;
 }
 
+/*-----------------------------------*\
+  #DOWNLOAD BUTTON RESUME
+\*-----------------------------------*/
+
+.resume-btn{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; ;
+    margin: 0;
+}
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+
+  gap: 10px;
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background:  hsl(45, 100%, 72%);
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+  background:   hsl(35, 100%, 68%);
+  box-shadow: 0 12px 20px rgba(237, 233, 233, 0.3);
+  transform: translateY(-2px);
+}
+
+.download-btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.download-icon {
+  font-size: 20px;
+}
 
 
 
